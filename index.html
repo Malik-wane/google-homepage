@@ -2,26 +2,146 @@
     <body>
         <head>
         <style>
-            body {
-        background-color: white;
-        }
-            .content{
-                position: relative;
+            .about{
+                display: block;
+                position: absolute;
+                top: 0px;
+                margin-left: 1px;
+                height: 1px;
+                width: 5px;
+                font-family: "Product sans",sans-serif;
             }
+            .Store{
+                display: block;
+                position: absolute;
+                top: 0px;
+                margin-left: 50px;
+                height: 1px;
+                width: 5px;
+                font-family: "Product sans",sans-serif;
+            }
+            .gmail{
+                display: block;
+                position: absolute;
+                top: 0px;
+                margin-left: 520px;
+                height: 1px;
+                width: 5px;
+                font-family: "Product sans",sans-serif;
+            }
+            .images{
+                display: block;
+                position: absolute;
+                top: 0px;
+                margin-left: 570px;
+                height: 1px;
+                width: 5px;
+                font-family: "Product sans",sans-serif;
+            }
+
+            body {
+                background-color: white;
+            }
+            .button1{
+                position: absolute;
+                background-color: rgb(23, 97, 255);
+                border:rgb(23, 97, 255);
+                text-align: center;
+                font-size: 14px;
+                height: 32px;
+                width: 85px;
+                top: 6px;
+                right: 8px;
+                border-radius: 3px;
+            }
+            
             img{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 100px;
-                width: 50%;
-                height: 100px;
+                margin-top: 120px;
+                width: 180px;
+                height: 60px;
             }
+            .input{
+                padding-left: 30px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto; 
+                margin-top: 20px;
+                border-radius: 30px;
+                border: 1px solid rgb(204, 204, 204);
+                width: 400px;
+                height: 35px;
+                transition: box-shadow .3;
+                font-size: 16px;
+            }
+            .input:hover {
+                box-shadow: 0 0 8px rgba(128,128,128.1);
+            }
+            .button2{
+                position: absolute;
+                bottom: 110px;
+                left: 260px;
+                height: 28px;
+                transition: box-shadow .3;
+                border: 0px solid rgb(204, 204, 204);
+                border-radius: 3px;
+            }
+            .button2:hover {
+                box-shadow: 0 0 8px rgba(128,128,128.1);
+            }
+            .button3{
+                position: absolute;
+                bottom: 110px;
+                left: 380px;
+                height: 28px;
+                transition: box-shadow .3;
+                border: 0px solid rgb(204, 204, 204);
+                border-radius: 3px;
+            }
+            .button3:hover {
+                box-shadow: 0 0 8px rgba(128,128,128.1);
+            }
+            .icon{
+                position: absolute;
+                margin-left: 150px;
+                margin-top: 32.5px;
+                width: 16px;
+                height: 13px;
+            }
+            
+           
         </style>
         </head>
-        <main>
-            <a id="content" id="center">
-                <img src="https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png" class="centre" width="100" height="20">
-            </a>
+        <main>  <a href="accounts.google.com/signin/v2/identifier">
+                    <button class="button1">Sign in</button> 
+                </a>
+                <a href="about.google.com">
+                    <p class="about" style="color: grey;">About</p>
+                </a>    
+                <a href="store.google.com/GB/">
+                    <p class="Store" style="color: grey;">Store</p>
+                </a>
+                <a href="www.googl.com/intl/en-GB/gmail/about/#">
+                    <p class="gmail" style="color: grey;">Gmail</p>
+                </a>
+                <a href="www.goole.com/imghp">
+                    <p class="images" style="color: grey;">Images</p>
+                </a>
+                <a id="content">
+                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png" class="centre" width="100" height="20">
+                </a>
+                <a href="https://www.google.com/">
+                    <img src="https://cdn.icon-icons.com/icons2/2518/PNG/512/search_icon_151112.png" class="icon">
+                </a> 
+                <form method="post">
+                    <input type="text" class="input" list="browers">
+                </form>
+                <button class="button2">Google Search</button>
+                <button class="button3">Feeling Lucky</button>
+        
+            
         </main>
 
 
