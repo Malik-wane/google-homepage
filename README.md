@@ -1,0 +1,1 @@
+This project is to make a recreation of the google homepage as a project of theodinproject
